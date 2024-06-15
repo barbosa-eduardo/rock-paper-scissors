@@ -1,4 +1,6 @@
 let options = ["rock", "paper", "scissors"];
+let computerScore = 0;
+let humanScore = 0;
 
 function getComputerChoice() {
     return options[parseInt(Math.random() * 3)];
