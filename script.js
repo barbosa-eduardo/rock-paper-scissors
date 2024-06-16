@@ -2,6 +2,8 @@ let options = ["rock", "paper", "scissors"];
 let computerScore = 0;
 let humanScore = 0;
 
+playGame();
+
 function getComputerChoice() {
     return options[parseInt(Math.random() * 3)];
 }
@@ -24,5 +26,19 @@ function playRound(humanChoice, computerChoice) {
     } else {
         computerScore++;
         console.log(`You lose! ${computerChoice} beats ${humanChoice}`);
+    }
+}
+
+function playGame() {
+    for (let i = 0; i < 5; i++) {
+        playRound(getHumanChoice(), getComputerChoice());
+    }
+
+    if (humanScore > computerScore) {
+        alert("Human wins with " + humanScore + " points!");
+    } else if (computerScore > humanScore) {
+        alert("Computer wins with " + computerScore + " points!");
+    } else {
+        alert("It is a tie! Both players got " + humanScore);
     }
 }
