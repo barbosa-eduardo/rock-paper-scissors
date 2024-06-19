@@ -17,13 +17,13 @@ function getHumanChoice() {
 
 function playRound(humanChoice, computerChoice) {
     if (humanChoice == computerChoice) {
-        console.log("It is a TIE! No one wins.");
+        displayResult("It is a TIE! No one wins.");
     } else if ((humanChoice == "rock" && computerChoice == "scissors") || (humanChoice == "paper" && computerChoice == "rock") || (humanChoice == "scissors" && computerChoice == "paper")) {
         humanScore++;
-        console.log(`You win! ${humanChoice} beats ${computerChoice}`);
+        displayResult(`You win! ${humanChoice} beats ${computerChoice}`);
     } else {
         computerScore++;
-        console.log(`You lose! ${computerChoice} beats ${humanChoice}`);
+        displayResult(`You lose! ${computerChoice} beats ${humanChoice}`);
     }
 }
 
@@ -35,4 +35,12 @@ function playGame() {
     } else {
         alert("It is a tie! Both players got " + humanScore);
     }
+}
+
+function displayResult(string) {
+    const resultList = document.querySelector("ul");
+    const li = document.createElement("li");
+
+    li.innerText = string;
+    resultList.appendChild(li);
 }
