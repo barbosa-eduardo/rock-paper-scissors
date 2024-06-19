@@ -1,0 +1,47 @@
+[33mcommit fe797754476ca2ca4d8ff6bbb55bd14256f308fb[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: eduardo <171377664+barbosa-eduardo@users.noreply.github.com>
+Date:   Sat Jun 15 22:10:56 2024 -0300
+
+    Add playRound function
+
+[33mcommit 9bb085ebbe0f4f06a73b8fe66f9235b9b9493dcc[m
+Author: eduardo <171377664+barbosa-eduardo@users.noreply.github.com>
+Date:   Sat Jun 15 21:54:02 2024 -0300
+
+    Add playRound function
+
+[33mcommit 3dba6f70a9a3d5ae0a84142a643366dbb268865e[m
+Author: eduardo <171377664+barbosa-eduardo@users.noreply.github.com>
+Date:   Sat Jun 15 20:21:04 2024 -0300
+
+    Add variables to hold scores
+
+[33mcommit b15bdea547d0d119d9b1e0adecadf3c97293e78e[m
+Author: eduardo <171377664+barbosa-eduardo@users.noreply.github.com>
+Date:   Sat Jun 15 20:19:06 2024 -0300
+
+    Add function to get human move
+
+[33mcommit 40ecc461f84ce7c5ff938665604df6f115b4c612[m
+Author: eduardo <171377664+barbosa-eduardo@users.noreply.github.com>
+Date:   Sat Jun 15 20:10:26 2024 -0300
+
+    Add function to get computer move
+
+[33mcommit 7540543d1de504ec04b43ced5e773ddca3ac5ca5[m
+Author: eduardo <171377664+barbosa-eduardo@users.noreply.github.com>
+Date:   Sat Jun 15 19:56:51 2024 -0300
+
+    Add script.js
+
+[33mcommit b795ef03740976b2960858729ac9fe22e85d52ea[m
+Author: eduardo <171377664+barbosa-eduardo@users.noreply.github.com>
+Date:   Sat Jun 15 19:55:17 2024 -0300
+
+    Add index.html with boilerplate
+
+[33mcommit e543483f6aa69fc0f7475f0f2a97f6f2f32c4ec8[m
+Author: barbosa-eduardo <171377664+barbosa-eduardo@users.noreply.github.com>
+Date:   Sat Jun 15 19:52:15 2024 -0300
+
+    Initial commit

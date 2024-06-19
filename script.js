@@ -20,9 +20,11 @@ function playRound(humanChoice, computerChoice) {
     } else if ((humanChoice == "rock" && computerChoice == "scissors") || (humanChoice == "paper" && computerChoice == "rock") || (humanChoice == "scissors" && computerChoice == "paper")) {
         humanScore++;
         displayResult(`You win! ${humanChoice} beats ${computerChoice}`);
+        updateScore();
     } else {
         computerScore++;
         displayResult(`You lose! ${computerChoice} beats ${humanChoice}`);
+        updateScore();
     }
 }
 
@@ -42,4 +44,12 @@ function displayResult(string) {
 
     li.innerText = string;
     resultList.appendChild(li);
+}
+
+function updateScore() {
+    const player = document.querySelector(".player_score");
+    const computer = document.querySelector(".computer_score");
+
+    player.innerText = humanScore;
+    computer.innerText = computerScore;
 }
