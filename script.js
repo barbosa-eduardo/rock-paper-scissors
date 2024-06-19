@@ -2,8 +2,6 @@ let options = ["rock", "paper", "scissors"];
 let computerScore = 0;
 let humanScore = 0;
 
-playGame();
-
 function getComputerChoice() {
     return options[parseInt(Math.random() * 3)];
 }
@@ -30,10 +28,6 @@ function playRound(humanChoice, computerChoice) {
 }
 
 function playGame() {
-    for (let i = 0; i < 5; i++) {
-        playRound(getHumanChoice(), getComputerChoice());
-    }
-
     if (humanScore > computerScore) {
         alert("Human wins with " + humanScore + " points!");
     } else if (computerScore > humanScore) {
